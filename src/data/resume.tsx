@@ -60,7 +60,7 @@ export const DATA = {
       },
     },
   },
-  work: [    
+  work: [
     {
       company: "Monitr Technology Pvt Ltd.",
       href: "",
@@ -96,7 +96,7 @@ export const DATA = {
       end: "2022",
       description:
         ""
-      },
+    },
   ],
   education: [
     {
@@ -227,66 +227,75 @@ export const DATA = {
       title: "MERN Stack",
       dates: "2023",
       location: "META",
-      description:"",
-      image:"/meta.png",
+      description:
+        "Completed a comprehensive MERN stack development course, covering MongoDB, Express.js, React.js, and Node.js, with a focus on building full-stack applications and optimizing for scalability.",
+      image: "/meta.png",
     },
     {
       title: "Oracle ERP",
       dates: "2021",
       location: "NAVTTC",
-      description:"",
-      image:"/navttc.png",
+      description:
+        "Gained hands-on experience in Oracle ERP, focusing on financial management and operations, and learned to navigate the ERP platform to streamline business processes.",
+      image: "/nav.png",
     },
     {
       title: "Laravel Development",
       dates: "2022",
       location: "Udemy",
-      description:"",
-      image:"/Udemy.png",
+      description:
+        "Acquired in-depth knowledge of the Laravel PHP framework, including Eloquent ORM, routing, middleware, and RESTful APIs, allowing for efficient backend development in PHP.",
+      image: "/Udemy.png",
     },
     {
       title: "Git and GitHub",
       dates: "2023",
       location: "META",
-      description:"",
-      image:"/meta.png",
+      description:
+        "Developed expertise in Git version control and GitHub collaboration, learning branching, merging, pull requests, and managing repositories for team-based software projects.",
+      image: "/meta.png",
     },
     {
       title: "Jr Pentester",
       dates: "2023",
-      location: "META",
-      description:"",
-      image:"/tryhackme.png",
-    }
+      location: "tryhackme",
+      description:
+        "Achieved junior pentester certification, focusing on cybersecurity fundamentals, network vulnerabilities, ethical hacking, and basic penetration testing using various tools and methods.",
+      image: "/tryhackme.png",
+    },
   ],
   Awards: [
     {
       title: "Web Developer Of The Year 2023",
       dates: "2023",
       location: "Szabist University Hyd Campus",
-      description:"",
-      image:"/szabist.png",
+      description:
+        "Awarded for outstanding contributions and performance in web development, demonstrating technical skills, creativity, and commitment to excellence in project execution.",
+      image: "/szabist.png",
     },
     {
       title: "Code Craft Winner (Competitive Coding)",
       dates: "2023",
       location: "Szabist University Hyd Campus",
-      description:"",
-      image:"/szabist.png",
+      description:
+        "Secured first place in a university-wide coding competition, showcasing problem-solving abilities, coding efficiency, and quick adaptation to complex challenges.",
+      image: "/szabist.png",
     },
     {
-      title: "Project Exhibition Runner-up (Pyhton Based Applications)",
+      title: "Project Exhibition Runner-up (Python-Based Applications)",
       dates: "2023",
       location: "Szabist University Hyd Campus",
-      description:"",
-      image:"/szabist.png",
+      description:
+        "Achieved runner-up position in a project exhibition, presenting a Python-based application with a focus on innovation and functionality, gaining recognition for project design and impact.",
+      image: "/szabist.png",
     },
     {
       title: "Code Craft Runner-Up (Competitive Coding)",
       dates: "2022",
       location: "Szabist University Hyd Campus",
-      description:"",
-      image:"/szabist.png",
+      description:
+        "Finished as runner-up in the competitive coding event, demonstrating strong programming skills, teamwork, and efficient problem-solving techniques in a high-pressure environment.",
+      image: "/szabist.png",
     },
   ],
 } as const;
